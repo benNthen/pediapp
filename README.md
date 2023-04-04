@@ -1,1 +1,1 @@
-# pediapp
+# recipeapp
