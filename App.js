@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
@@ -6,6 +7,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import CategoriesScreen from './screens/CategoriesScreen';
 import RecipeViewScreen from './screens/RecipeViewScreen';
 import MealDetailScreen from './screens/MealDetailScreen';
+import FavoritesScreen from './screens/FavoritesScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -25,23 +27,17 @@ export default function App() {
             name="MealsCategories" 
             component={CategoriesScreen} 
             options={{
-              title: 'All Categories',
-              headerStyle: { backgroundColor: '#351401' },
-              headerTintColor: 'white',
-              contentStyle: { backgroundColor: '#3f2f25' },
+              title:'All Categories',
             }}
           />
+          <Stack.Screen name="RecipeOverview" component={RecipeViewScreen} />
           <Stack.Screen 
-            name="RecipeOverview" 
-            component={RecipeViewScreen} 
-            // options={({ route, navigation }) => {
-            //   const catId = route.params.categoryId;
-            //   return {
-            //     title: catId,
-            //   };
-            // }}
+            name="MealDetail" 
+            component={MealDetailScreen} 
+            options={{
+              title: 'About the Meal',
+            }}
           />
-          <Stack.Screen name="MealDetail" component={MealDetailScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </>  
