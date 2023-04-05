@@ -56,6 +56,12 @@ Expo Go will load and open the app on your phone.
  
  Scroll across the 'All Categories' page and select your desired cuisine. 
  
+ ![20230405_001315000_iOS](https://user-images.githubusercontent.com/53241776/229950860-45e3aef7-5943-40d4-ad8c-78409ef06991.png)
+
  You will be taken to a second page containing a list of recipes. 
  
+ ![20230405_001343000_iOS](https://user-images.githubusercontent.com/53241776/229950881-69afe063-5bcc-452b-b1da-c8700777b603.png)
+
  Select the recipe of your choice to be taken to a third page that displays the recipe of your choice along with a list of ingredients and the steps to prepare the meal.
+ 
+ ![20230405_001414000_iOS](https://user-images.githubusercontent.com/53241776/229950910-dac1e25f-39f4-407a-b798-4b2479148d99.png)
