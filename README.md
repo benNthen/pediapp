@@ -4,7 +4,7 @@ A mobile app that allows the user to browser through a category of recipes from 
 
 ## Using this repository
 
-This repository can now be accessed online by clicking on this [link](https://bennthen-automatic-space-journey-759rw5xx6x53rvj5-19006.preview.app.github.dev/).
+This repository can now be accessed online by clicking on this [link](https://codesandbox.io/p/github/benNthen/recipeapp/main?workspaceId=e5829751-e466-4b6e-8d71-ef7a6226bd7e).
 
 You can run the app on your local computer and/or by connecting your mobile phone. 
 For more information on how to run a React Native app, [go here](https://reactnative.dev/docs/environment-setup).
